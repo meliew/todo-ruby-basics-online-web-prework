@@ -9,7 +9,7 @@ end
 def argue(argument)
   puts argument
   return argument
-  
+
 end
 
 def greeting
@@ -24,6 +24,8 @@ def last_evaluated_value
 
 end
 
-def pizza_party
+def pizza_party(topping = "cheese")
+  puts topping
+  returns topping
 
 end
